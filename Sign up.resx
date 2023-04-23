@@ -112,15 +112,15 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>147, 15</value>
   </metadata>
-  <metadata name="OpenFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="OpenFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>12, 15</value>
   </metadata>
   <data name="Label32.Text" xml:space="preserve">
@@ -134,13 +134,59 @@
   <data name="Label30.Text" xml:space="preserve">
     <value>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</value>
   </data>
-  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="RichTextBox.Text" xml:space="preserve">
+    <value>Terms and Conditions for Small Banking Software
+
+These terms and conditions govern the use of the small banking software provided by [Company Name]. By using this software, you agree to comply with these terms and conditions. If you do not agree with these terms and conditions, do not use the software.
+
+User Accounts
+To use the software, you must create a user account. You are responsible for maintaining the security of your user account and password. You are also responsible for all activities that occur under your user account. You must notify us immediately of any unauthorized use of your user account or password.
+
+Use of the Software
+The software is intended to be used for personal banking purposes only. You agree to use the software only for lawful purposes and in a way that does not infringe the rights of others or restrict or inhibit anyone else's use of the software.
+
+Prohibited Activities
+You may not use the software to engage in any of the following activities:
+
+Access, tamper with, or use non-public areas of the software, our computer systems, or the technical delivery systems of our providers.
+Probe, scan or test the vulnerability of any system or network.
+Breach the security or authentication measures of the software or any network connected to the software.
+Interfere with or disrupt the software or servers or networks connected to the software.
+Use any robot, spider, scraper or other automated means to access the software for any purpose without our express written permission.
+Use the software for any illegal purpose.
+Privacy Policy
+We respect your privacy and are committed to protecting your personal information. Our privacy policy governs the collection, use, and disclosure of your personal information in connection with the software.
+
+Intellectual Property
+All intellectual property rights in the software, including copyrights, trademarks, and patents, belong to [Company Name] or its licensors. You may not copy, modify, distribute, sell, or transfer any part of the software without our express written permission.
+
+Indemnification
+You agree to indemnify and hold harmless B-Bank and its affiliates, officers, directors, employees, and agents from any claim, demand, or damage, including reasonable attorneys' fees, arising out of or related to your use of the software or violation of these terms and conditions.
+
+Termination
+We may terminate your access to the software at any time, for any reason, with or without notice to you.
+
+Disclaimer of Warranties
+The software is provided "as is" without warranty of any kind, either express or implied, including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, and non-infringement. B-Bank does not warrant that the software will meet your requirements or that the operation of the software will be uninterrupted or error-free.
+
+Limitation of Liability
+In no event shall [Company Name] or its affiliates, officers, directors, employees, or agents be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with the use of the software, even if B-Bank has been advised of the possibility of such damages.
+
+Governing Law
+These terms and conditions shall be governed by and construed in accordance with the laws of India, without giving effect to any principles of conflicts of law.
+
+Entire Agreement
+These terms and conditions constitute the entire agreement between you and B-Bank with respect to the use of the software and supersede all prior or contemporaneous communications and proposals, whether oral or written, between you and B-Bank.
+
+By using the software, you agree to these terms and conditions. If you do not agree with these terms and conditions, do not use</value>
+  </data>
+  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>147, 15</value>
   </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>41</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAwAAAAAAAEACAAoJAEAxgAAAICAAAABAAgAKEwAAO4kAQAwMAAAAQAIAKgOAAAWcQEAICAAAAEA

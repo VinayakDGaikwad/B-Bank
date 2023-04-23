@@ -1,7 +1,7 @@
 ﻿Module Code
     Function GetTransactionCode(ByRef Transaction_pin As String)
 
-        'This part of code will be in syn with the code in the BankSide Application as far as i remenber
+        'This part of code will be in syn with the code in the BankSide Application as far as 
         'Coding
         Dim CodeUD1 As String = Transaction_pin.Replace("9", "p")
         Dim CodeUD2 As String = CodeUD1.Replace("8", "j")
@@ -12,6 +12,8 @@
         Dim CodeUD7 As String = CodeUD6.Replace("3", "z")
         Dim CodeUD8 As String = CodeUD7.Replace("2", "r")
         Dim TransactionCode As String = CodeUD8.Replace("1", "0")
+
+
 
         Return TransactionCode.ToString.ToUpper
     End Function

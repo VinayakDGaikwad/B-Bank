@@ -16,4 +16,8 @@ Public Class TOS_Dialog
         RichTextBox.ReadOnly = True
         RichTextBox.Text = System.IO.File.ReadAllText(System.AppDomain.CurrentDomain.BaseDirectory() + "B-Bank Terms of Service.bbt")
     End Sub
+
+    Private Sub RichTextBox_TextChanged(sender As Object, e As EventArgs) Handles RichTextBox.TextChanged
+
+    End Sub
 End Class

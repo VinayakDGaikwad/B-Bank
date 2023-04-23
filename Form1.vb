@@ -22,8 +22,7 @@ Public Class Form1
                 'Password match then Continune
                 Main.Show()
                 Me.Hide()
-                TextBox3.Text = (Username)
-                Usernametext.ReadOnly = False
+                 Usernametext.ReadOnly = False
             Else
                 'Password dosn't match
                 MsgBox("The password you have enter is not correct for your UserName", MsgBoxStyle.Exclamation, "Incorrect Password")
@@ -42,7 +41,6 @@ Public Class Form1
         Label5.Text = "Date: " + Date.Now.Day.ToString + "/" + Date.Now.Month.ToString + "/" + Date.Now.Year.ToString
         'PasswordText.PasswordChar = "*"
         PasswordText.MaxLength = 14
-        TextBox3.Hide()
         Me.Focus()
         Usernametext.Focus()
     End Sub
@@ -87,7 +85,7 @@ Public Class Form1
         End Try
     End Sub
 
-    Private Sub Button1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Private Sub Button1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs)
         File_Reader.WriteLine(2, "33")
     End Sub
 

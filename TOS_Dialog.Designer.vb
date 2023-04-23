@@ -22,11 +22,11 @@ Partial Class TOS_Dialog
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel
-        Me.OK_Button = New System.Windows.Forms.Button
-        Me.Cancel_Button = New System.Windows.Forms.Button
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.RichTextBox = New System.Windows.Forms.RichTextBox
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.OK_Button = New System.Windows.Forms.Button()
+        Me.Cancel_Button = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.RichTextBox = New System.Windows.Forms.RichTextBox()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -39,19 +39,21 @@ Partial Class TOS_Dialog
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.OK_Button, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.Cancel_Button, 1, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(326, 352)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(435, 433)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(146, 29)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(195, 36)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'OK_Button
         '
         Me.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.OK_Button.Location = New System.Drawing.Point(3, 3)
+        Me.OK_Button.Location = New System.Drawing.Point(4, 4)
+        Me.OK_Button.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.OK_Button.Name = "OK_Button"
-        Me.OK_Button.Size = New System.Drawing.Size(67, 23)
+        Me.OK_Button.Size = New System.Drawing.Size(89, 28)
         Me.OK_Button.TabIndex = 0
         Me.OK_Button.Text = "OK"
         '
@@ -59,9 +61,10 @@ Partial Class TOS_Dialog
         '
         Me.Cancel_Button.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.Cancel_Button.Location = New System.Drawing.Point(76, 3)
+        Me.Cancel_Button.Location = New System.Drawing.Point(101, 4)
+        Me.Cancel_Button.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Cancel_Button.Name = "Cancel_Button"
-        Me.Cancel_Button.Size = New System.Drawing.Size(67, 23)
+        Me.Cancel_Button.Size = New System.Drawing.Size(89, 28)
         Me.Cancel_Button.TabIndex = 1
         Me.Cancel_Button.Text = "Cancel"
         '
@@ -69,34 +72,37 @@ Partial Class TOS_Dialog
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Location = New System.Drawing.Point(12, 9)
+        Me.Label1.Location = New System.Drawing.Point(16, 11)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(201, 13)
+        Me.Label1.Size = New System.Drawing.Size(268, 17)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "B-Bank Terms of Service are as followers"
         '
         'RichTextBox
         '
         Me.RichTextBox.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RichTextBox.Location = New System.Drawing.Point(15, 37)
+        Me.RichTextBox.Location = New System.Drawing.Point(20, 46)
+        Me.RichTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RichTextBox.Name = "RichTextBox"
-        Me.RichTextBox.Size = New System.Drawing.Size(456, 309)
+        Me.RichTextBox.Size = New System.Drawing.Size(607, 379)
         Me.RichTextBox.TabIndex = 2
         Me.RichTextBox.Text = ""
         '
         'TOS_Dialog
         '
         Me.AcceptButton = Me.OK_Button
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.B_Bank.My.Resources.Resources.Background_image
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CancelButton = Me.Cancel_Button
-        Me.ClientSize = New System.Drawing.Size(484, 393)
+        Me.ClientSize = New System.Drawing.Size(645, 484)
         Me.Controls.Add(Me.RichTextBox)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "TOS_Dialog"

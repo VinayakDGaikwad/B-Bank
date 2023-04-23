@@ -137,7 +137,7 @@ Public Class Dialog3
     End Function
 
     Private Sub Dialog3_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        RichTextBox.Text = System.IO.File.ReadAllText(System.AppDomain.CurrentDomain.BaseDirectory() + "B-Bank Terms of Service.bbt")
+        ''RichTextBox.Text = System.IO.File.ReadAllText(System.AppDomain.CurrentDomain.BaseDirectory() + "B-Bank Terms of Service.bbt")
         RichTextBox.ReadOnly = True
         RichTextBox.BackColor = System.Drawing.Color.White()
         Me.AutoScroll = True
@@ -195,10 +195,10 @@ Public Class Dialog3
 
     Private Sub passwordtext_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles passwordtext.TextChanged
         If ValidatePassword(passwordtext.Text) = True Then
-            Pass_PictureBox.Load(scrdirctory + "tick.jpeg")
+            ''  Pass_PictureBox.Load(scrdirctory + "tick.jpeg")
             conferpasswordtext.Enabled = True
         ElseIf ValidatePassword(passwordtext.Text) = False Then
-            Pass_PictureBox.Load(scrdirctory + "wrong.jpeg")
+            ''     Pass_PictureBox.Load(scrdirctory + "wrong.jpeg")
             conferpasswordtext.Enabled = False
         End If
     End Sub
@@ -209,9 +209,9 @@ Public Class Dialog3
 
     Private Sub conferpasswordtext_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles conferpasswordtext.TextChanged
         If String.Compare(conferpasswordtext.Text, passwordtext.Text, False) = 0 Then
-            Conform_Pass_PictureBox.Load(scrdirctory + "tick.jpeg")
+            ''    Conform_Pass_PictureBox.Load(scrdirctory + "tick.jpeg")
         Else
-            Conform_Pass_PictureBox.Load(scrdirctory + "wrong.jpeg")
+            ''     Conform_Pass_PictureBox.Load(scrdirctory + "wrong.jpeg")
         End If
     End Sub
 
@@ -258,7 +258,7 @@ Public Class Dialog3
         End If
     End Sub
 
-    Private Sub Button2_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+    Private Sub Button2_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs)
         TextBox1.Text = "sefs"
         TextBox2.Text = "sefs"
         TextBox3.Text = "sefs"
@@ -282,5 +282,13 @@ Public Class Dialog3
 
     Private Sub Read_Terms_of_Service_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles Read_Terms_of_Service.LinkClicked
         TOS_Dialog.ShowDialog()
+    End Sub
+
+    Private Sub RichTextBox_TextChanged(sender As Object, e As EventArgs) Handles RichTextBox.TextChanged
+
+    End Sub
+
+    Private Sub OK_Button_Click_1(sender As Object, e As EventArgs) Handles OK_Button.Click
+
     End Sub
 End Class

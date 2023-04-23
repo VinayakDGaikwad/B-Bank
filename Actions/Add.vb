@@ -107,6 +107,7 @@ Public Class Add
                 objWriter.WriteLine(s_blance)
                 objWriter.WriteLine(number.ToString())
                 objWriter.WriteLine(amount_text.Text.ToString)
+                objWriter.Flush()
                 objWriter.Close()
 
                 MsgBox("This is your transaction pin " + number.ToString() + vbCrLf + "Please don't forget to take the transaction pin given by the person.", MsgBoxStyle.Information, "Step 1 Sccsecfully completed")
@@ -124,5 +125,9 @@ Public Class Add
         If (Microsoft.VisualBasic.Asc(e.KeyChar) = 8) Then
             e.Handled = False
         End If
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
+        MsgBox(Code.GetTransactionCode(transpin.Text))
     End Sub
 End Class
